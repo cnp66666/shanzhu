@@ -1,0 +1,244 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
+html, body {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  -webkit-flex-direction: column;
+}
+
+.black {
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  position: fixed;
+  left: 0;
+  top: 0;
+  display: none;
+}
+
+.xianshi {
+  width: 100%;
+  height: 22.7rem;
+  background: #fff;
+  padding-top: 2.1rem;
+  display: none;
+  position: fixed;
+  left: 0;
+  top: 4rem;
+}
+.xianshi > div {
+  padding: 0 1.45rem;
+  font-size: 1.3rem;
+}
+.xianshi > div div:nth-of-type(1) {
+  width: 9.2rem;
+  height: 3.5rem;
+  background: #ffad2d;
+  text-align: center;
+  line-height: 3.5rem;
+  color: #fff;
+}
+.xianshi > div div:nth-of-type(2) {
+  position: relative;
+  height: 4.3rem;
+  font-size: 1rem;
+}
+.xianshi > div div:nth-of-type(2) .xian {
+  width: 100%;
+  height: 2px;
+  background: #ccc;
+  position: absolute;
+  left: 0;
+  top: 50%;
+}
+.xianshi > div div:nth-of-type(2) p:last-child {
+  position: absolute;
+  top: 35%;
+  left: 45%;
+  padding: 0 1rem;
+  background: #fff;
+}
+.xianshi > div div:nth-of-type(3) {
+  display: flex;
+  justify-content: space-between;
+}
+.xianshi > div div:nth-of-type(3) p {
+  width: 9rem;
+  height: 3.4rem;
+  text-align: center;
+  line-height: 3.4rem;
+  background: #e9e9e9;
+}
+
+.header {
+  width: 100%;
+  height: 20rem;
+  background: #fa5a2a;
+}
+.header .top {
+  display: flex;
+  position: relative;
+  width: 100%;
+  padding-left: 1.5rem;
+}
+.header .top .ret {
+  position: absolute;
+  width: .8rem;
+  height: 1.6rem;
+}
+.header .top .ret img {
+  width: 100%;
+  height: 100%;
+  margin-top: 1.1rem;
+}
+.header .tit {
+  width: 100%;
+  text-align: center;
+  line-height: 4rem;
+  color: white;
+  font-size: 1.5rem;
+}
+.header .cont {
+  width: 100%;
+  height: 13.75rem;
+}
+.header .cont .cont-l {
+  margin: 0 auto;
+  width: 15.4rem;
+  height: 11.8rem;
+  background: url("../img/tjt_yuan.png") no-repeat;
+  background-size: 100%;
+}
+.header .cont .cont-l .pii1 {
+  text-align: center;
+  font-size: 1.5rem;
+  color: white;
+  padding-top: 4rem;
+}
+.header .cont .cont-l .pii2 {
+  text-align: center;
+  font-size: 1.5rem;
+  color: white;
+  padding-top: 1rem;
+}
+.header .cont .cont-l .pii2 span {
+  font-size: 30px;
+}
+.header .cont .cont-l .pii3 {
+  text-align: center;
+  font-size: 10px;
+  color: #FDD2CC;
+  padding-top: 1rem;
+}
+
+.box div {
+  display: none;
+}
+
+.box .show {
+  display: block;
+}
+
+.box #pp {
+  width: 100%;
+  background: #FFB900;
+  padding: 0.8rem;
+  display: flex;
+  justify-content: space-between;
+}
+.box #pp span {
+  color: #FFD477;
+  width: 33.3%;
+  font-size: 1.5rem;
+  text-align: center;
+}
+.box div:nth-of-type(1) {
+  width: 100%;
+}
+.box div:nth-of-type(1) ul {
+  border-bottom: 1px solid #cccccc;
+}
+.box div:nth-of-type(1) li:nth-of-type(1) {
+  height: 8.7rem;
+  padding: 0.8rem;
+}
+.box div:nth-of-type(1) li:nth-of-type(1) .p1 {
+  font-size: 20px;
+}
+.box div:nth-of-type(1) li:nth-of-type(1) .p2 {
+  margin-top: 0.5rem;
+}
+.box div:nth-of-type(1) li:nth-of-type(1) .p2 span {
+  border: 1px solid #FED599;
+  color: #FED599;
+  padding: 0.1rem;
+  border-radius: 10px;
+  margin: 0 0.4rem 0 0;
+}
+.box div:nth-of-type(1) li:nth-of-type(1) .p3 {
+  margin-top: 1rem;
+  color: #B7B7B7;
+}
+.box div:nth-of-type(2) {
+  width: 100%;
+}
+.box div:nth-of-type(2) ul {
+  border-bottom: 1px solid #cccccc;
+}
+.box div:nth-of-type(2) li:nth-of-type(1) {
+  height: 8.7rem;
+  padding: 0.8rem;
+}
+.box div:nth-of-type(2) li:nth-of-type(1) .p1 {
+  font-size: 20px;
+}
+.box div:nth-of-type(2) li:nth-of-type(1) .p2 {
+  margin-top: 0.5rem;
+}
+.box div:nth-of-type(2) li:nth-of-type(1) .p2 span {
+  border: 1px solid #FED599;
+  color: #FED599;
+  padding: 0.1rem;
+  border-radius: 10px;
+  margin: 0 0.4rem 0 0;
+}
+.box div:nth-of-type(2) li:nth-of-type(1) .p3 {
+  margin-top: 1rem;
+  color: #B7B7B7;
+}
+.box div:nth-of-type(3) {
+  width: 100%;
+}
+.box div:nth-of-type(3) ul {
+  border-bottom: 1px solid #cccccc;
+}
+.box div:nth-of-type(3) li:nth-of-type(1) {
+  height: 8.7rem;
+  padding: 0.8rem;
+}
+.box div:nth-of-type(3) li:nth-of-type(1) .p1 {
+  font-size: 20px;
+}
+.box div:nth-of-type(3) li:nth-of-type(1) .p2 {
+  margin-top: 0.5rem;
+}
+.box div:nth-of-type(3) li:nth-of-type(1) .p2 span {
+  border: 1px solid #FED599;
+  color: #FED599;
+  padding: 0.1rem;
+  border-radius: 10px;
+  margin: 0 0.4rem 0 0;
+}
+.box div:nth-of-type(3) li:nth-of-type(1) .p3 {
+  margin-top: 1rem;
+  color: #B7B7B7;
+}
+
+/*# sourceMappingURL=zhucetongji.css.map */

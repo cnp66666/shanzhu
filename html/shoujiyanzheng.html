@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>手机验证</title>
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<link rel="stylesheet" type="text/css" href="../css/base.css"/>
+		<link rel="stylesheet" type="text/css" href="../css/shoujiyanzheng.css"/>
+		<link rel="stylesheet" type="text/css" href="../css/font-awesome.min.css"/>
+	</head>
+	<body class="body">
+		<header>
+			<a href="mimayanzheng1.html"><div class="headerdiv1"></div></a>
+			<div class="headerdiv2">手机验证</div>
+		</header>
+		<div class="content">
+			<div class="p">短信验证码已发送到手机码为:</div>
+			<div class="number"><span>186</span><span>****</span><span>1524</span></div>
+			<div class="inp">
+				<span class="fa fa-lock"></span>
+				<input type="text" placeholder="输入手机验证"/>
+				<input type="button" value="发送验证码" class="btn"/>
+			</div>
+			<div class="btn1">
+				<input type="button" value="确定" />
+			</div>
+		</div>
+	</body>
+	<script src="../js/fonts.js" type="text/javascript" charset="utf-8"></script>
+	<script type="text/javascript">
+		window.onload = function() {
+			var wait = 60;
+
+
+	function time(o) {
+		if(wait == 0) {
+			o.removeAttribute("disabled");
+			o.value = "发送验证码";
+			wait = 60;
+		} else {
+			o.setAttribute("disabled", true);
+			o.value =wait + "s";
+			wait--;
+			setTimeout(function() {
+				time(o)
+			}, 1000)
+		}
+	}
+	  document.querySelector(".btn").onclick=function(){
+		time(this);	  	
+	  }
+}
+	</script>
+</html>

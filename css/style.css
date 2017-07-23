@@ -1,0 +1,155 @@
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	font-family: "微软雅黑";
+	font-weight: normal;
+}
+.headerDiv{
+	width: 100%;
+	height: 4rem;
+	background: #FEAC2C;
+	display: flex;
+	align-items: center;
+}
+.headerDiv .turnImg{
+	width: .8rem;
+	height: 1.5rem;
+	margin-left: 1.25rem;
+}
+.headerDiv .downImg{
+	width: .75rem;
+	height: .65rem;
+	vertical-align: middle;
+}
+.headerDiv span{
+	font-size: 1.5rem;
+	color: white;
+	padding-left: 9.5rem;
+}
+.headerDiv span b{
+	margin-left: .3rem;
+}
+.mainDiv1{
+	width: 100%;
+	height: 10.1rem;
+	background: #FEAC2C;
+	padding-top: 1.75rem;
+	display: flex;
+	color: white;
+}
+.mainDiv1 .ul1{
+	padding-left: 3.3rem;
+	padding-right: 6.25rem;
+}
+.li1{
+	font-size: 1.25rem;
+}
+.li2{
+	font-size: .9rem;
+	padding-top: 2.3rem;
+}
+.li2 span{
+	font-size: 1.5rem;
+}
+
+.mainDiv2{
+	width: 100%;
+	position: relative;
+}
+.mainDiv2 .m2-ul1{
+	width: 100%;
+	height: 2.95rem;
+	font-size: 1.25rem;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	border-top: 1.5rem solid #F5F5F5;
+	border-bottom: .025rem solid #C5C5C5;
+}
+.mainDiv2 .m2-ul2{
+	display: flex;
+	justify-content: space-around;
+	padding-top: 2rem; 
+	padding-bottom: 2.25rem;
+}
+.m2-ul2 .p1{
+	font-size: 1.25rem;
+}
+.m2-ul2 .p2{
+	font-size: 2rem;
+	padding-top: 1.1rem;
+	color: red;
+}
+.m-li1{
+	padding-left: .8rem;
+}
+.m-li1 span{
+	padding-left: .5rem;
+}
+.m-li2 span{
+	padding-right: 1rem;
+}
+.m-li2{
+	padding-right: .8rem;
+}
+
+
+
+
+
+/*==========show-Ul============*/
+.headerDiv{
+	position: relative;
+}
+.show-Ul{
+	width: 100%;
+	height: 15.25rem;
+	background: white;
+	z-index: 1;
+	position: absolute;
+	display: none;
+}
+.show-Ul #inp1{
+	border: none;
+	width: 9rem;
+	height: 3.5rem;
+	text-align: center;
+	line-height: 3.5rem;
+	font-size: 1.5rem;
+	color: white;
+	border-radius: .5rem;
+	background: #FEAC2C;	
+}
+
+.show-Ul .inp{
+	border: none;
+	width: 8rem;
+	height: 3.5rem;
+	text-align: center;
+	line-height: 3.5rem;
+	font-size: 1.5rem;
+	border-radius: .5rem;
+	background: #E0E0E0;	
+}
+.show-Ul .show-li1{
+	padding-top: 2.25rem;
+	padding-left: 1.2rem;
+}
+.show-Ul .show-li2{
+	padding-top: 1.2rem;
+	text-align: center;
+	color: gray;
+}
+.show-Ul .show-li3{
+	padding-top: 1.5rem;
+	padding-left: 1.2rem;
+}
+.show-div{
+	width: 100%;
+	height: 100%;
+	background: rgba(225,225,225,0.8);
+	position: absolute;
+	top: 0;
+	display: none;
+}

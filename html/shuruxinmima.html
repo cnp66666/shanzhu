@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<link rel="stylesheet" type="text/css" href="../css/shuruxinmima.css"/>
+		<link rel="stylesheet" type="text/css" href="../css/font-awesome.min.css"/>
+		<title>新密码</title>
+	</head>
+	<body>
+		<div class="bg" id="bg">
+			<div class="bgbox">
+				<div class="aleat">
+					登陆密码设置成功！
+				</div>
+			</div>
+			
+		</div>
+		<div class="bg" id="bg1">
+			<div class="bgbox">
+				<div class="aleat">
+					密码格式错误！
+				</div>
+			</div>
+			
+		</div>
+		<div class=".box">
+			<header>
+				<p class="return"><a href="mimayanzheng1.html"><img src="../img/return.png"/></a></p>
+				<p class="tit">修改登陆密码</p>
+			</header>
+			<div class="old-pass">
+				<p>请输入长度为6-24位的密码</p>
+			</div>
+			<div class="pass-inp">
+				<div class="pass-left">
+					<p class="fa fa-lock"></p>
+					<p class="inp-box"><input type="password" placeholder="请输入新登录密码" id="inp" class="inp"/></p>
+				</div>
+				<p class="eye"></p>
+			</div>
+			<div class="btn">
+				<a href="#" id="tiaozhuan"><input type="button" value="确认" id="btn"/></a>
+			</div>
+		</div>
+	</body>
+	<script src="../js/fonts.js" ></script>
+	<script>
+		var oEye = document.querySelector('.eye');
+		oEye.onclick = function(){
+			var oInp = document.querySelector('#inp');
+			var oVal = oInp.value;
+			if(oVal == ""){
+				return;
+			}else{
+				if(oInp.type == "text"){
+					oInp.type = "password";
+				}else{
+					oInp.type = "text";
+				}
+			}
+		}
+		var oBtn=document.getElementById("btn");
+		oBtn.onclick=function(){
+			var oInp = document.querySelector('#inp');
+			var oVal = oInp.value;
+			var oA=document.querySelector("#tiaozhuan");
+			var oBg=document.querySelector("#bg");
+			var oBg1=document.querySelector("#bg1");
+//			alert(oA)
+			if(oVal.length<6||oVal.length>24){
+				oBg1.style.display="block";
+				setInterval(function(){
+					oBg1.style.display="none";
+				},2000)
+			}
+			else{
+				oBg.style.display="block";
+					oA.href="gerenzhuye.html";
+			}
+		}
+	</script>
+</html>

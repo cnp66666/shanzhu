@@ -1,0 +1,12 @@
+$(function(){
+	$(".next").click(function(){
+		 if($(".input1").val()==""){
+		       	$(".nextsuccess").show()
+		 }else{
+		 	$(this).attr("href","chongzhimima.html")
+		 }
+	})
+	$(".nextsuccess").click(function(){
+		$(this).hide()
+	})
+})

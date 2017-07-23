@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<meta charset="UTF-8">
+		<link rel="stylesheet" type="text/css" href="../css/font-awesome.min.css"/>
+		<link rel="stylesheet" type="text/css" href="../css/ziliao.css"/>
+		<title></title>
+	</head>
+	<body>
+		<div class="box">
+			<header>
+				<p class="return"><a href="shezhi.html"><img src="../img/return.png"/></a></p>
+				<p class="tit">个人资料</p>
+			</header>
+			<div class="rz-box">
+				<div class="rz">
+					<div class="tx"><img src="../img/tx.png"/></div>
+					<div class="user">
+						<p class="name">
+							SZ1049
+						</p>
+						<p class="us"><i class="fa fa-user"></i>个人用户</p>
+					</div>
+					<div class="no">
+						<p>未认证</p>
+					</div>
+				</div>
+			</div>
+			<div class="wanshan">
+				<p>完善个人资料可享受更多闪注优惠</p>
+			</div>
+			<div class="yanzheng">
+				<div class="list">
+					<p>Email</p>
+					<a href="javascript:;">
+						<span>未添加邮箱</span>
+						<i class="go"></i>
+					</a>
+				</div>
+				<div class="list">
+					<p>联系人</p>
+					<a href="javascript:;">
+						<span class="val">崔小小</span>
+						<i class="go"></i>
+					</a>
+				</div>
+				<div class="list">
+					<p>手机号码</p>
+					<a href="javascript:;">
+						<span class="val">18652412512</span>
+						<i class="go"></i>
+					</a>
+				</div>
+				<div class="list">
+					<p>身份证正面</p>
+					<a href="javascript:;" class="picture">
+						<span>未上传身份证信息</span>
+						<i class="go"></i>
+					</a>
+				</div>
+				<div class="list">
+					<p>身份证背面</p>
+					<a href="javascript:;" class="picture">
+						<span>未上传身份证信息</span>
+						<i class="go"></i>
+					</a>
+				</div>
+				<div class="btn">
+					<a href="gerenzhuye.html"><p><button>提交审核</button></p></a>
+				</div>
+			</div>
+		</div>
+		<div class="bgcolor">
+			<div class="pic"> 
+				<p><a href="javascript:;">拍照</a></p>
+				<p><a href="javascript:;">从相册中选择</a></p>
+				<p><a href="javascript:;">取消</a></p>
+			</div>
+		</div>
+	</body>
+</html>
+<script src="../js/fonts.js"></script>
+<script type="text/javascript" src="../js/zepto.min.js" ></script>
+<script>
+	$(".picture").click(function(){
+		$(".bgcolor").css({"display":"block"});
+		$(".pic").css({"display":"block"})
+	})
+	$(".pic").click(function(){
+		$(".bgcolor").css({"display":"none"});
+		$(".pic").css({"display":"none"})
+	})
+</script>

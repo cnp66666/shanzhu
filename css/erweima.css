@@ -1,0 +1,101 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  box-sizing: border-box; }
+
+html, body {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  -webkit-flex-direction: column; }
+
+a {
+  display: block; }
+
+header {
+  width: 100%;
+  height: 4rem;
+  background: #ffac2c;
+  display: flex;
+  position: relative; }
+  header .return {
+    width: .8rem;
+    height: 1.5rem;
+    left: 1.25rem;
+    top: 1.4rem;
+    position: absolute; }
+    header .return a {
+      width: 100%;
+      height: 100%; }
+      header .return a img {
+        width: 100%;
+        height: 100%; }
+  header .tit {
+    width: 100%;
+    line-height: 4rem;
+    text-align: center;
+    color: #fff;
+    font-size: 1.5rem; }
+
+.guanzhu {
+  width: 100%;
+  height: 3.7rem;
+  background: #f5f5f5;
+  text-align: center;
+  color: #919191;
+  font-size: 1.75rem;
+  line-height: 3.7rem; }
+
+.gz-box {
+  width: 100%;
+  padding: 0 1.1rem; }
+  .gz-box .gzh {
+    width: 100%;
+    display: flex;
+    height: 4.8rem;
+    line-height: 4.8rem; }
+    .gz-box .gzh p {
+      font-size: 1.2rem;
+      color: #1f1f1f; }
+    .gz-box .gzh a {
+      margin-left: .7rem;
+      color: #f84612;
+      font-size: 1.75rem; }
+  .gz-box .commit {
+    width: 100%;
+    height: 8rem;
+    background: #facd89;
+    border-radius: .8rem;
+    position: relative; }
+    .gz-box .commit .tips {
+      position: absolute;
+      background: url(../img/tips.png) no-repeat;
+      background-size: 100%;
+      width: 3rem;
+      height: 1.3rem;
+      left: 0;
+      top: .5rem; }
+    .gz-box .commit p {
+      width: 100%;
+      font-size: 1.3rem;
+      color: #f95223; }
+    .gz-box .commit .plus {
+      padding-left: 1.5rem;
+      padding-top: 2.9rem; }
+    .gz-box .commit .plus2 {
+      padding-left: 1.5rem;
+      margin-top: 1.25rem; }
+
+.rwm {
+  width: 100%; }
+  .rwm p {
+    width: 14rem;
+    height: 14rem;
+    margin: 3.5rem auto; }
+    .rwm p img {
+      width: 100%;
+      height: 100%; }
+
+/*# sourceMappingURL=erweima.css.map */

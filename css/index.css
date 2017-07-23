@@ -1,0 +1,134 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+html, body, #box {
+  width: 100%;
+  height: 100%;
+  font-size: 20px;
+  position: relative; }
+
+.header {
+  width: 100%;
+  background: url(../img/logobanner.png) repeat-x;
+  position: relative;
+  overflow: hidden; }
+  .header a {
+    float: right;
+    text-decoration: none;
+    font-size: 1.3rem;
+    margin: 0.8rem;
+    color: white; }
+  .header img {
+    display: block;
+    margin: 5.6rem auto;
+    width: 50%; }
+
+.zhuce {
+  width: 90%;
+  margin: 1.5rem auto; }
+  .zhuce span {
+    color: #adaeae;
+    position: relative;
+    top: 0.145rem;
+    left: 0.4rem;
+    padding: 3px;
+    font-size: 1.3rem; }
+  .zhuce input {
+    width: 85%;
+    padding: 3px;
+    font-size: 1.2rem; }
+
+.zhuce1 {
+  width: 90%;
+  margin: 1.5rem auto; }
+  .zhuce1 span {
+    color: #adaeae;
+    position: relative;
+    top: 0.145rem;
+    left: 0.6rem;
+    padding: 3px;
+    font-size: 1.3rem; }
+  .zhuce1 input {
+    width: 85%;
+    padding: 3px;
+    font-size: 1.2rem; }
+
+.button {
+  display: block;
+  height: 2.4rem;
+  line-height: 1.2rem;
+  color: white;
+  border-radius: 2.4rem;
+  font-size: 1.15rem;
+  background: #FFD974;
+  border: 1px solid #FFD259;
+  width: 94%;
+  margin: 0 auto;
+  outline: none;
+  padding: 0.75rem 0px 0.75rem;
+  position: relative; }
+  .button span {
+    display: block;
+    position: absolute;
+    left: 50%;
+    margin-left: -1.2rem;
+    margin-top: 0.75rem; }
+
+.wanglemima {
+  width: 100%;
+  text-align: center;
+  margin-top: 5rem; }
+  .wanglemima a {
+    font-size: 1.2rem;
+    color: #FFD259; }
+
+.success {
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.3);
+  position: fixed;
+  z-index: 1;
+  display: none; }
+  .success div {
+    opacity: 0.5;
+    position: absolute;
+    left: 25%;
+    right: 0;
+    top: 50%;
+    width: 50%;
+    height: 5rem;
+    background: #FFD259;
+    color: white;
+    border-radius: 1rem;
+    font-size: 2rem; }
+    .success div p {
+      text-align: center;
+      line-height: 5rem; }
+
+.fail {
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.3);
+  position: fixed;
+  bottom: 0;
+  top: 0;
+  z-index: 1;
+  display: none; }
+  .fail div {
+    opacity: 0.7;
+    position: absolute;
+    left: 25%;
+    right: 0;
+    top: 50%;
+    width: 50%;
+    height: 5rem;
+    background: #FFD259;
+    color: white;
+    border-radius: 1rem;
+    font-size: 2rem; }
+    .fail div p {
+      text-align: center;
+      line-height: 5rem; }
+
+/*# sourceMappingURL=index.css.map */

@@ -1,0 +1,43 @@
+header{
+	height: 4rem;
+	background: #ffac2c;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	font-size: 1.5rem;
+	position: relative;
+}
+.headerdiv1{
+	width: 0.8rem;
+	height: 1.5rem;
+	background: url(../img/return.png) no-repeat;
+	background-size: 100% 100%;
+	position: absolute;
+	top: 1.15rem;
+	left: 1.25rem;
+}
+.headerdiv2{
+	width: 100%;
+	text-align: center;
+	color: white;
+}
+.contentimg{
+	width: 15.7rem;
+	height: 15.6rem;
+	background: url(../img/t9.png) no-repeat;
+	background-size: 100% 100%;
+	margin: 3.3rem auto;
+}
+.contentp1,.contentp2{
+	font-size: 1.2rem;
+	color: #a19fa0;
+	text-align: center;
+}
+.contentp2{
+	margin-top: 1.5rem;
+}
+.contentp2 a{
+	font-size: 1.2rem;
+	color: #01aae8;
+	
+}

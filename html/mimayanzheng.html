@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<link rel="stylesheet" type="text/css" href="../css/mimayanzheng.css"/>
+		<link rel="stylesheet" type="text/css" href="../css/font-awesome.min.css"/>
+		<title>登录密码</title>
+	</head>
+	<body>
+		<div class=".box">
+			<header>
+				<p class="return"><a href="mimayanzheng1.html"><img src="../img/return.png"/></a></p>
+				<p class="tit">登录密码验证</p>
+			</header>
+			<div class="old-pass">
+				<p>请输入原登录密码验证身份</p>
+			</div>
+			<div class="pass-inp">
+				<div class="pass-left">
+					<p class="fa fa-lock"></p>
+					<p class="inp-box"><input type="password" placeholder="请输入原登录密码" id="inp" class="inp"/></p>
+				</div>
+				<p class="eye"></p>
+			</div>
+			<div class="btn">
+				<a href="xiugaidenglumima.html"><input type="button" value="确认"/></a>
+			</div>
+		</div>
+	</body>
+	<script src="../js/fonts.js" ></script>
+	<script type="text/javascript">
+		var oEye = document.querySelector('.eye');
+		oEye.onclick = function(){
+			var oInp = document.querySelector('#inp');
+			var oVal = oInp.value;
+			if(oVal == ""){
+				return;
+			}else{
+				if(oInp.type == "text"){
+					oInp.type = "password";
+				}else{
+					oInp.type = "text";
+				}
+			}
+		}
+	</script>
+</html>

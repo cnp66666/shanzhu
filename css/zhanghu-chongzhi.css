@@ -1,0 +1,99 @@
+body {
+  background: #f5f5f5; }
+
+.header {
+  width: 100%;
+  height: 4rem;
+  background: orange;
+  line-height: 4rem; }
+  .header > div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 1.2rem; }
+    .header > div a {
+      display: block;
+      width: 0.9rem;
+      height: 1.6rem; }
+      .header > div a img {
+        width: 100%; }
+    .header > div p {
+      color: #fff;
+      font-size: 1.7rem; }
+    .header > div span {
+      display: block;
+      width: 1.2rem;
+      height: 1rem; }
+
+.cont {
+  width: 100%; }
+  .cont > p {
+    margin-left: 1rem;
+    height: 2.2rem;
+    background: #f5f5f5;
+    line-height: 2.2rem;
+    color: #c4c4c4; }
+  .cont .cont-cont {
+    width: 100%;
+    background: #fff; }
+    .cont .cont-cont li {
+      height: 4.7rem;
+      padding: 0 0.5rem;
+      border-top: 0.2rem solid #f5f5f5; }
+      .cont .cont-cont li a {
+        display: flex;
+        justify-content: space-between;
+        align-items: center; }
+        .cont .cont-cont li a .left {
+          display: flex; }
+          .cont .cont-cont li a .left > p {
+            width: 2.6rem;
+            height: 2.7rem;
+            background: #ffac2c;
+            text-align: center;
+            line-height: 2.7rem;
+            border-radius: 0.2rem;
+            margin-top: 1rem; }
+          .cont .cont-cont li a .left > div {
+            margin-left: 1.2rem;
+            margin-top: 0.7rem; }
+            .cont .cont-cont li a .left > div div {
+              display: flex; }
+              .cont .cont-cont li a .left > div div p:first-child {
+                width: 5.8rem;
+                height: 1.25rem;
+                border: 0.25rem solid #ffac2c;
+                border-radius: 1.25rem;
+                font-size: 1rem;
+                text-align: center;
+                color: #ffac2c; }
+              .cont .cont-cont li a .left > div div p:last-child {
+                font-size: 1.5rem;
+                margin-left: 0.2rem; }
+            .cont .cont-cont li a .left > div p {
+              margin-top: 0.2rem; }
+        .cont .cont-cont li a .right {
+          color: greenyellow; }
+      .cont .cont-cont li:nth-of-type(2) .left > p {
+        background: #fa5828; }
+      .cont .cont-cont li:nth-of-type(2) .left > div div p:first-child {
+        border: 0.25rem solid #7de7fa;
+        color: #7de7fa; }
+      .cont .cont-cont li:nth-of-type(2) .right {
+        color: #fb7664; }
+      .cont .cont-cont li:nth-of-type(3) .left > p {
+        background: #fa5b2b; }
+      .cont .cont-cont li:nth-of-type(3) .left > div div p:first-child {
+        border: 0.25rem solid #ffe3b7;
+        color: #ffe3b7; }
+      .cont .cont-cont li:nth-of-type(3) .right {
+        color: #fb7664; }
+      .cont .cont-cont li:nth-of-type(4) .left > p {
+        background: #ffac2d; }
+      .cont .cont-cont li:nth-of-type(4) .left > div div p:first-child {
+        border: 0.25rem solid #fa53e8;
+        color: #fa53e8; }
+      .cont .cont-cont li:nth-of-type(4) .right {
+        color: greenyellow; }
+
+/*# sourceMappingURL=zhanghu-chongzhi.css.map */

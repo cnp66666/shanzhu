@@ -1,0 +1,130 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none; }
+
+html, body, #box1 {
+  width: 100%;
+  height: 100%;
+  position: relative; }
+
+.passwardheader {
+  width: 100%;
+  height: 5.5rem;
+  position: relative; }
+  .passwardheader img {
+    position: absolute;
+    left: 1.3rem;
+    top: 2.9rem;
+    width: 1rem;
+    height: 1.5rem; }
+  .passwardheader span {
+    position: absolute;
+    left: 50%;
+    margin-left: -3.2rem;
+    top: 2.9rem;
+    font-size: 1.6rem; }
+
+.bangding {
+  width: 100%;
+  padding: 1.5rem;
+  font-size: 1.6rem; }
+
+.phonenumber {
+  width: 100%;
+  padding: 1.5rem; }
+  .phonenumber input {
+    width: 80%;
+    height: 2rem;
+    font-size: 1.2rem; }
+  .phonenumber #span1 {
+    font-size: 1.3rem;
+    color: #FFC830; }
+  .phonenumber #span2 {
+    font-size: 1.3rem;
+    color: #CBCBCB; }
+
+.next {
+  display: block;
+  height: 2.9rem;
+  line-height: 1.2rem;
+  color: white;
+  border-radius: 2.4rem;
+  font-size: 1.5rem;
+  background: #FFD974;
+  border: 1px solid #FFD259;
+  width: 94%;
+  margin: 0 auto;
+  outline: none;
+  padding: 0.75rem 0px 0.75rem;
+  position: relative; }
+  .next span {
+    display: block;
+    position: absolute;
+    left: 50%;
+    margin-left: -2.25rem;
+    margin-top: 0.75rem; }
+
+.nextsuccess {
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.3);
+  position: fixed;
+  z-index: 1;
+  display: none; }
+  .nextsuccess div {
+    position: absolute;
+    left: 15%;
+    right: 0;
+    top: 30%;
+    width: 70%;
+    height: 12.2rem;
+    background: white;
+    color: white;
+    border-radius: 1rem;
+    font-size: 1.5rem;
+    overflow: hidden; }
+    .nextsuccess div p {
+      margin-top: 2rem;
+      text-align: center;
+      color: black;
+      line-height: 2rem; }
+    .nextsuccess div .divp2 {
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      margin-top: 1rem; }
+      .nextsuccess div .divp2 span, .nextsuccess div .divp2 a {
+        display: block;
+        background: #FFD259;
+        width: 49.5%;
+        height: 3.3rem;
+        line-height: 3.3rem;
+        color: white; }
+
+.nextfail {
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.3);
+  position: fixed;
+  bottom: 0;
+  top: 0;
+  z-index: 1;
+  display: none; }
+  .nextfail div {
+    position: absolute;
+    left: 25%;
+    right: 0;
+    top: 50%;
+    width: 50%;
+    height: 5rem;
+    background: #FFD259;
+    color: white;
+    border-radius: 1rem;
+    font-size: 1.5rem; }
+    .nextfail div p {
+      color: white;
+      margin-top: 1rem;
+      text-align: center; }
+
+/*# sourceMappingURL=wanglemima.css.map */
